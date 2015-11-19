@@ -70,3 +70,8 @@ sudo apt-get update && sudo apt-get -y upgrade
 
 # set p4merge as git diff tool
 # http://blogs.pdmlab.com/alexander.zeitler/articles/installing-and-configuring-p4merge-for-git-on-ubuntu/
+# VSCode
+# download: 
+# sensible-browser http://go.microsoft.com/fwlink/?LinkID=534108
+# unzip
+# sudo ln -s ~/VSCode-linux-x64/Code /usr/local/bin/code
