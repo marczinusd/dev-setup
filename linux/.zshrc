@@ -24,11 +24,13 @@ alias st='git status'
 alias fd='fdfind'
 alias efzf='code $(fzf)'
 alias nn='nnn -eDU'
+alias gconfig='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # !! Dangerous aliases
 
 alias cat='bat'
 alias diff='delta'
+alias top='zenith'
 
 export PATH=$PATH:$HOME/.dotnet/tools
 export PATH=$PATH:$HOME/.local/bin
@@ -38,6 +40,7 @@ export GDK_SCALE=1.50
 export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview'
 export NNN_FIFO='/tmp/nnn.fifo'
 export TERMINAL=tmux
+export BAT_THEME="TwoDark"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -76,6 +79,7 @@ echo '\e[33;1m\tfzf \e[m-> fuzzy finder'
 echo '\e[33;1m\thttp \e[m-> httpie'
 echo '\e[33;1m\tnn/nnn \e[m-> file explorer'
 echo '\e[33;1m\thyperfine \e[m-> commandline benchmark'
+echo '\e[33;1m\tzenith \e[m-> htop/gtop replacement in Rust'
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
