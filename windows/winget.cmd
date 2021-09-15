@@ -1,4 +1,3 @@
-@REM Enable winget: https://docs.microsoft.com/en-us/windows/package-manager/winget/
 @REM Browser(s)
 winget install Mozilla.FirefoxDeveloperEdition
 @REM winget install Google.Chrome.Beta @REM pls no
@@ -18,6 +17,12 @@ winget install JanDeDobbeleer.OhMyPosh
 winget install bmatzelle.Gow
 winget install gsudo
 winget install JackieLiu.NotepadsApp
+
+@REM Command line utilies via Scoop: https://github.com/lukesampson/scoop
+scoop install fd ripgrep delta zoxide fzf bat
+
+@REM Windows port soon COPIUM
+@REM scoop install exa
 
 @REM winget install SublimeHQ.SublimeMerge
 winget install Fork.Fork
